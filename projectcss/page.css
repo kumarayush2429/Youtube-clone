@@ -1,0 +1,90 @@
+.thumbnail-photo{
+  width: 100%;
+  cursor: pointer;
+  
+}
+.preview-photo{
+  position: relative;
+
+}
+
+
+.text-1{
+  font-weight: 500;
+  font-family: Roboto, Arial, sans-serif;;
+  font-size: 14px;
+  margin-top: 4px;
+}
+
+.text-2{
+  color: grey;
+  font-family: Roboto, Arial, sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  margin-bottom: 0px;
+}
+
+.text-3{
+  color: grey;
+  font-family: Roboto, Arial, sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  margin-top: 3px;
+
+}
+
+.video-info-grid{
+  display: grid;
+  grid-template-columns: 50px 1fr;
+}
+
+.profile-pic{
+  width: 30px;
+  border-radius: 25px;
+  cursor: pointer;
+}
+
+.video-des{
+width: 200px;
+}
+
+.page-grid-info{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 8px;
+  row-gap: 16px;
+  padding: 20px;
+  background-color: rgb(240, 235, 235);
+
+}
+
+
+  
+@media (max-width: 800px){
+  .page-grid-info{
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (min-width: 1000px){
+  .page-grid-info{
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+
+}
+
+.video-time{
+  background-color: black;
+  color: white;
+  position: absolute;
+  right: 4px;
+  bottom: 8px;
+  font-size: 12px;
+  font-weight: 500;
+  padding: 4px;
+  font-family: Arial, Helvetica, sans-serif;
+  border-radius: 3px;
+
+
+  
+}
